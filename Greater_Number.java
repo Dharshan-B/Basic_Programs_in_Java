@@ -2,8 +2,12 @@ import java.util.Scanner;
 public class Greater_Number {
     public static void main(String[] args) {
        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter A value:");
        int a = sc.nextInt();
-       int b = sc.nextInt(),c=sc.nextInt();
+        System.out.println("Enter B value:");
+       int b = sc.nextInt()
+        System.out.println("Enter C value:");
+       int c=sc.nextInt();
        if(a<0 || b<0 || c <0){
            System.out.println("Negative number");
        }
