@@ -32,5 +32,7 @@ public class Greater_Number {
        else if(c==a && (c>b && a>b)){
            System.out.println("C and A are Greater");
        }
+        else{
+            System.out.println("The End");
     }
 }
