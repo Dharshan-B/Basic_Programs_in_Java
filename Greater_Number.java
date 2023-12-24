@@ -5,7 +5,7 @@ public class Greater_Number {
         System.out.println("Enter A value:");
        int a = sc.nextInt();
         System.out.println("Enter B value:");
-       int b = sc.nextInt()
+       int b = sc.nextInt();
         System.out.println("Enter C value:");
        int c=sc.nextInt();
        if(a<0 || b<0 || c <0){
@@ -31,6 +31,6 @@ public class Greater_Number {
        }
        else if(c==a && (c>b && a>b)){
            System.out.println("C and A are Greater");
-       }
-       
+       }   
+}
 }
